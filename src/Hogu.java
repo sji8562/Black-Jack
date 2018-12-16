@@ -1,14 +1,14 @@
-/* Player.java
+/* Hogu.java
  */
 
-public class Player {
+public class Hogu {
 
     final static int MAX_CARDS = 52;
     public Card[] cards = new Card[MAX_CARDS];
     private int N = 0;
     private String name;
 
-    public Player(String name) {
+    public Hogu(String name) {
         this.name = name;
     }
 
